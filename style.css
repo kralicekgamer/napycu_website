@@ -1,4 +1,26 @@
-* {
+ 
+  @font-face {
+    font-family: 'Mulish';
+    src: url('./fonts/Mulish/Mulish-VariableFont_wght.ttf') format('truetype');
+    font-weight: 400;
+    font-style: normal;
+  }
+  
+  @font-face {
+    font-family: 'Nunito';
+    src: url('./fonts/Nunito/Nunito-Italic-VariableFont_wght.ttf') format('truetype');
+    font-weight: 400;
+    font-style: normal;
+  }
+  
+  @font-face {
+    font-family: 'Roboto Condensed';
+    src: url('./fonts/Roboto_Condensed/RobotoCondensed-VariableFont_wght.ttf') format('truetype');
+    font-style: normal;
+  }
+  
+
+html, body {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -6,76 +28,33 @@
 
 header {
     text-align: center;
-}
-
-header h1 {
-    font-size: 2.5rem;
+    margin-top: 5px;
+    margin-bottom: 5px;
 }
 
 section {
-    margin: 20px auto;
-    max-width: 1000px;
-    padding: 0 15px;
+    margin-left: 5px;
+}
+
+article {
+    margin-left: 5px;
+    margin-bottom: 20px;
+}
+
+footer {
+    text-align: center;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+h1 {
+    font-family: "Mulish", sans-serif;
 }
 
 h2 {
-    text-decoration: underline;
-    font-size: 2rem;
-    margin-bottom: 10px;
-    color: #333;
+    font-family: "Roboto Condensed", sans-serif;
 }
 
-
-article {
-    margin-bottom: 20px;
-    padding: 20px;
-    border: 1px solid #ddd;
-    background-color: #f9f9f9;
-    border-radius: 10px;
-}
-
-article h3 {
-    font-size: 1.5rem;
-    margin-bottom: 10px;
-    color: #444;
-}
-
-article ul {
-    list-style-type: disc;
-    margin-left: 20px;
-    font-size: 1rem;
-    color: #555;
-}
-
-article a {
-    color: #007BFF;
-    text-decoration: none;
-    font-weight: bold;
-}
-
-article a:hover {
-    text-decoration: underline;
-}
-
-/* Footer Styles */
-footer {
-    text-align: center;
-    padding: 20px;
-    background-color: #f1f1f1;
-    color: #333;
-    margin-top: 30px;
-    border-top: 1px solid #ddd;
-}
-
-footer small {
-    font-size: 0.9rem;
-}
-
-/* General Styling */
-body {
-    font-family: 'Roboto', sans-serif;
-    background-color: #f4f4f4;
-    color: #333;
-    line-height: 1.6;
-    padding: 20px 0;
+h3{
+    font-family: "Nunito", sans-serif;
 }
