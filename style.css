@@ -1,69 +1,43 @@
- @font-face {
-    font-family: 'Mulish';
-    src: url('./fonts/Mulish/Mulish-VariableFont_wght.ttf') format('truetype');
-    font-weight: 400;
-    font-style: normal;
-}
-  
-@font-face {
-    font-family: 'Nunito';
-    src: url('./fonts/Nunito/Nunito-Italic-VariableFont_wght.ttf') format('truetype');
-    font-weight: 400;
-    font-style: normal;
-}
-  
-@font-face {
-    font-family: 'Roboto Condensed';
-    src: url('./fonts/Roboto_Condensed/RobotoCondensed-VariableFont_wght.ttf') format('truetype');
-    font-style: normal;
-}
-
-  
 html, body {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    background-color: #F5EFE7;
+    max-width: 740px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #F5F5F5;
 }
 
 header {
+    margin-bottom: 20px;
     text-align: center;
-    margin-top: 5px;
-    margin-bottom: 5px;
 }
 
 section {
-    margin-left: 5px;
-    margin-right: 5px;
+    margin-left: 20px;
+    margin-right: 20px;
 }
 
 article {
-    margin-left: 5px;
-    margin-bottom: 20px;
+    margin-bottom: 40px;
+}
+
+h1 {
+    color: #804481;
+}
+
+h2, h3 {
+    color: #DD88CF;
+}
+
+p, li, small {
+    color: #4B164C;
+}
+
+a {
+    color: #804481;
 }
 
 footer {
     text-align: center;
-    margin-top: 5px;
-    margin-bottom: 5px;
 }
-
-h1 {
-    font-family: "Mulish", sans-serif;
-    color: #17202c;
-}
-
-h2 {
-    font-family: "Roboto Condensed", sans-serif;
-    color: #3E5879;
-}
-
-h3{
-    font-family: "Nunito", sans-serif;
-    color: #8c98b8;
-}
-
-li, a, p {
-    color: #213555;
-}
-
