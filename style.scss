@@ -1,0 +1,50 @@
+$primary-color: #4B164C;
+$background-color: #F5F5F5;
+$heading-color: #804481;
+$link-color: #804481;
+$subheading-color: #DD88CF;
+
+html, body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    max-width: 740px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: $background-color;
+    font-family: Poppins;
+}
+
+header {
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+section {
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+article {
+    margin-bottom: 40px;
+}
+
+h1 {
+    color: $heading-color;
+}
+
+h2, h3 {
+    color: $subheading-color;
+}
+
+p, li, small {
+    color: $primary-color;
+}
+
+a {
+    color: $link-color;
+}
+
+footer {
+    text-align: center;
+}

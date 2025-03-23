@@ -1,44 +1,44 @@
 html, body {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    max-width: 740px;
-    margin-left: auto;
-    margin-right: auto;
-    background-color: #F5F5F5;
-    font-family: Poppins;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  max-width: 740px;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: #F5F5F5;
+  font-family: Poppins;
 }
 
 header {
-    margin-bottom: 20px;
-    text-align: center;
+  margin-bottom: 20px;
+  text-align: center;
 }
 
 section {
-    margin-left: 20px;
-    margin-right: 20px;
+  margin-left: 20px;
+  margin-right: 20px;
 }
 
 article {
-    margin-bottom: 40px;
+  margin-bottom: 40px;
 }
 
 h1 {
-    color: #804481;
+  color: #804481;
 }
 
 h2, h3 {
-    color: #DD88CF;
+  color: #DD88CF;
 }
 
 p, li, small {
-    color: #4B164C;
+  color: #4B164C;
 }
 
 a {
-    color: #804481;
+  color: #804481;
 }
 
 footer {
-    text-align: center;
-}
+  text-align: center;
+}/*# sourceMappingURL=style.css.map */
